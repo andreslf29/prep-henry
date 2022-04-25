@@ -73,7 +73,7 @@ function tienenMismaLongitud(str1, str2) {
   if (str1.lenght == str2.lenght) {
     return true;
   } else {
-    false;
+    return false;
   }
 }
 
@@ -84,7 +84,7 @@ function menosQueNoventa(num) {
   if (num < 90) {
     return true;
   } else {
-    false;
+    return false;
   }
 }
 
@@ -95,7 +95,7 @@ function mayorQueCincuenta(num) {
   if (num > 50) {
     return true;
   } else {
-    false;
+    return false;
   }
 }
 
